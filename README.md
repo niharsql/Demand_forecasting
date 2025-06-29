@@ -1,10 +1,10 @@
-# 🛍️ Demand Forecasting Using Random Forest
+# Demand Forecasting Using Random Forest
 
 This project uses historical retail data to forecast product demand (i.e., `units_sold`) using machine learning. The aim is to build a robust regression model that helps predict sales based on various features such as store ID, SKU ID, pricing, and promotional flags.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset used contains **150,150 rows** and the following columns:
 - `record_ID`: Unique identifier (later dropped)
@@ -16,7 +16,7 @@ The dataset used contains **150,150 rows** and the following columns:
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - Split `week` into `day`, `month`, and `year`
 - Dropped `record_ID` as it added no predictive value
@@ -24,7 +24,7 @@ The dataset used contains **150,150 rows** and the following columns:
 
 ---
 
-## 🧠 Model Used
+## Model Used
 
 - **RandomForestRegressor** from `sklearn.ensemble`
 - Trained/tested with 80/20 split
@@ -34,7 +34,7 @@ The dataset used contains **150,150 rows** and the following columns:
 
 ---
 
-## 🔍 Results
+## Results
 
 | Stage                     | R² Score | RMSE     |
 |--------------------------|----------|----------|
